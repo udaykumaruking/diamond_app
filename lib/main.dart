@@ -34,25 +34,27 @@ class DiamondApp extends StatelessWidget {
                   padding: const EdgeInsets.all(8.0),
                   child: Center(
                     child: Container(
-                      decoration: BoxDecoration(
-                        color: Colors.white,
-                        boxShadow: [
-                          BoxShadow(
-                            color: Colors.grey,
-                            blurRadius: 20,
-                          )
-                        ]
-                      ),
+                      decoration:
+                          BoxDecoration(color: Colors.white, boxShadow: [
+                        BoxShadow(
+                          color: Colors.grey,
+                          blurRadius: 20,
+                        )
+                      ]),
                       child: Column(
-
                         children: [
-                          Icon(Icons.alternate_email, color: Colors.orange, size: 50,),
-                          SizedBox(height: 10,),
+                          Icon(
+                            Icons.alternate_email,
+                            color: Colors.orange,
+                            size: 50,
+                          ),
+                          SizedBox(
+                            height: 10,
+                          ),
                           Text('Write To Us'),
                           Text('udaykumaruking@gmail.com'),
                         ],
                       ),
-
                       height: 100,
                       width: 370,
                     ),
